@@ -68,6 +68,13 @@ nav a.selected {
 
 /* main */
 
+.main-content p {
+	font-size: 1.5em;
+	font-family: helvetica;
+	font-weight: 300;
+	color: #666;
+}
+
 /* aside */
 
 .main {
@@ -170,12 +177,102 @@ ul#twitter_update_list span a:hover {
 	color:#64a773;
 }
 
+/* learn */
+
+.aside-block {
+	background:#64a773;
+	border-radius: 0.7em;
+	padding: 20px 20px 10px 20px;
+	font-size: 2.1em;
+	color:white;
+	margin-bottom:10px;
+	width:190px;
+}
+
+.aside-list li {
+	margin-bottom: 3px;
+	font-size: 0.6em;
+	font-family: helvetica;
+	font-weight: 300;
+	text-transform:lowercase;
+}
+
+.unwanted-items {
+	background:#CCCCCC;
+}
+
+/* team */
+
+.team-img {
+	height:380px;
+	border-radius:1em;
+	background:#cccccc;
+	color:white;
+	font-size: 1.8em;
+	padding-top: 20px;
+	text-align: center;
+	margin-bottom:20px;
+}
+
+.team-img img {
+	margin-bottom:20px;
+}
+
+.team-img p {
+	text-transform:uppercase;
+	margin-bottom:5px;
+}
+
+.team-img h2 {
+	margin:0 10px;
+}
+
+.team-img a {
+	color: #999;
+	font-size: 0.8em;
+	font-family: helvetica;
+	font-weight: 200;
+}
+
+.team-img a:hover {
+	color:#039103;
+}
+
+.team-volunteer-hover {
+	position:absolute;
+	margin-top:-266px;
+	display:none;
+}
+
+.team-volunteer a {
+	background:#e2e2e2;
+	text-transform:lowercase;
+	color:#999999;
+	padding:10px 20px;
+	border-radius:0.5em;
+}
+
+.team-volunteer a:hover {
+	color:#999999;
+}
+
+
+.team-volunteer a:hover .team-volunteer-hover {
+	display:block;
+	cursor:pointer;
+}
+
+.name {
+	height:70px;
+}
+
 /* footer */
 
 footer {
-	background: #999999;
+	background: #cccccc;
 	padding-top: 30px;
 	color: white;
+	box-shadow: inset 0 1px 10px rgba(0,0,0,0.2);
 }
 
 footer a {
@@ -183,7 +280,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #cccccc;
+	color: #64a773;
 }
 
 footer h1 {
@@ -204,7 +301,7 @@ footer p {
 	font-family: helvetica;
 	font-size: 1.5em;
 	font-weight: 300;
-	color: #CCC;
+	color: #999999;
 }
 
 address {
@@ -218,9 +315,17 @@ address {
 }
 
 .grey {
-	height:100px;
+	height:80px;
 	background:#333333;
 	margin-top:-102px;
+	padding-top:40px;
+}
+
+.grey p {
+	color:#666666;
+	font-size:1.4em;
+	font-family:helvetica;
+	font-weight:300;
 }
 
 /* clearfix */
