@@ -1,0 +1,230 @@
+/* master */
+
+body {
+	font-family: Josefin Slab;
+	font-size:62.5%;
+	margin:0;
+}
+
+.container {
+	margin: 0 auto;
+	width: 750px;
+	margin-bottom:100px;
+}
+
+ul {
+	list-style: none;
+	padding:0px;
+}
+
+a, a:visited {
+	color:#4d4d4d;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#64a773;
+}
+
+p, h1, h2, h3, h4 {margin:0;}
+
+/* grid */
+.span1 {width:230px;}
+.span2 {width:490px;}
+.span3 {width:750px;}
+.span1, .span2, .span3 {margin-right:30px;float:left;}
+.last {margin-right:0px;}
+.fR {float:right;}
+.fL {float:left;}
+
+/* header */
+
+header {
+	margin-bottom: 30px;
+}
+
+/* nav */
+
+nav {
+	border-top: 3px solid #e5e5e5;
+	border-bottom: 3px solid #e5e5e5;
+}
+
+nav ul {
+	margin-bottom: 5px;
+}
+
+nav ul li {
+	float: left;
+	margin-right: 30px;
+	text-transform: uppercase;
+	font-weight:700;
+	font-size: 2.4em;
+}
+
+nav a.selected {
+	color:#64a773;
+}
+
+/* main */
+
+/* aside */
+
+.main {
+	margin-top: 30px;
+}
+
+.button {
+	background:#64a773;
+	border-radius: 0.7em;
+	padding: 20px 0;
+	font-size: 2.4em;
+	color:white;
+	margin-bottom:10px;
+}
+
+.button:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.button:hover h2 {
+	color: #039103;
+}
+
+.button p {
+	float: left;
+	margin-left: 25px;
+	text-transform: lowercase;
+}
+
+.button h2 {
+	font-size: 2.3em;
+	float: right;
+	margin-right: 25px;
+	margin-bottom: -10px;
+}
+
+.volunteer {
+	background: #CCC url(../images/foodstamp.png) no-repeat 160px 15px;
+	height: 34px;
+	padding-top: 30px;
+}
+
+.volunteer:hover {
+	color:white;
+	background: #CCC url(../images/foodstamp-hover.png) no-repeat 160px 15px;
+}
+
+.donate {
+	background: #CCC url(../images/donate.png) no-repeat 160px 19px;
+	height: 34px;
+	padding-top: 30px;
+}
+
+.donate:hover {
+	color:white;
+	background: #CCC url(../images/donate-hover.png) no-repeat 160px 19px;
+}
+
+.twit-link {
+	background: #CCC;
+	font-size: 2.4em;
+	padding: 16px 0 13px 21px;
+	margin-top: 10px;
+	margin-bottom: -15px;
+	border-radius: 1em 1em 0 0em;
+	padding: 16px 0 13px 21px;
+	text-transform: lowercase;
+}
+
+.twit-link a {
+	color:white;
+}
+
+.twit-link a:hover {
+	color:#039103;
+}
+
+.twitter {
+	font-size: 1.5em;
+	font-family: helvetica;
+}
+
+.twitter li {
+	margin-bottom: 20px;
+	color: #666;
+	background: #f2f2f2;
+	border-radius: 1em;
+	padding: 15px;
+}
+
+.twitter li:first-child {
+	border-radius:0 0 1em 1em;
+}
+
+ul#twitter_update_list span a {
+	color:#039103;
+}
+
+ul#twitter_update_list span a:hover {
+	color:#64a773;
+}
+
+/* footer */
+
+footer {
+	background: #999999;
+	padding-top: 30px;
+	color: white;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: #cccccc;
+}
+
+footer h1 {
+	font-size: 2.4em;
+	text-transform: uppercase;
+	margin-bottom:1em;
+}
+
+footer h2 {
+	font-size: 2.1em;
+	margin-bottom: 0.5em;
+	font-family: helvetica;
+	font-weight: 300;
+	text-transform: lowercase;
+}
+
+footer p {
+	font-family: helvetica;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: #CCC;
+}
+
+address {
+	font-style: normal;
+}
+
+.footer {
+	background: transparent url(../images/bucket-tip.png) no-repeat 380px 50px;
+	padding-bottom:150px;
+	margin-bottom:0;
+}
+
+.grey {
+	height:100px;
+	background:#333333;
+	margin-top:-102px;
+}
+
+/* clearfix */
+
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.cf { zoom: 1; }
