@@ -75,6 +75,26 @@ nav a.selected {
 	color: #666;
 }
 
+/* images */
+
+.compost-image {
+	float: left;
+	border-radius: 1em;
+	margin-bottom: 20px;
+	width: 490px;
+}
+
+#images {
+	width: 490px;
+	float: left;
+}
+
+#images img {
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 1em;
+}
+
 /* aside */
 
 .main {
@@ -183,15 +203,16 @@ ul#twitter_update_list span a:hover {
 	background:#64a773;
 	border-radius: 0.7em;
 	padding: 20px 20px 10px 20px;
-	font-size: 2.1em;
+	font-size: 1.6em;
 	color:white;
 	margin-bottom:10px;
 	width:190px;
+	text-transform:uppercase;
 }
 
 .aside-list li {
 	margin-bottom: 3px;
-	font-size: 0.6em;
+	font-size: 0.9em;
 	font-family: helvetica;
 	font-weight: 300;
 	text-transform:lowercase;
