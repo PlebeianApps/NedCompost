@@ -41,7 +41,8 @@ p, h1, h2, h3, h4 {margin:0;}
 /* header */
 
 header {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 
@@ -244,7 +245,7 @@ a.twit-header:hover {
 }
 
 .unwanted-items {
-	background: #CCCCCC;
+	background: #666666;
 }
 
 img.cycle {
@@ -297,14 +298,14 @@ img.cycle {
 .team-volunteer a {
 	background:#e2e2e2;
 	text-transform:lowercase;
-	color:#999999;
+	color:#333333;
 	padding:10px 20px;
 	border-radius:0.5em;
 	font-weight: bold;
 }
 
 .team-volunteer a:hover {
-	color:#999999;
+	color:#1a1a1a;
 }
 
 
