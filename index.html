@@ -31,12 +31,17 @@
                 <li><a href="team.html">Team</a></li>
         </nav>
         <section class="main cf">
-            <div class="fL">
-                <img src = "images/compost.png" class="compost-image"></img>
-            </div>
-            <div id="images">
-            </div>
-            <aside class="span1 last fR">
+            <section class="content cf span2">
+                <div class="compost-image">
+                    <img src = "images/compost2.png">
+                </div>
+                <h1 class = "section-header">About NedCompost</h1>
+                <p>Bacon ipsum dolor sit amet pancetta shoulder leberkäse boudin venison capicola. Ball tip jerky kielbasa, tenderloin leberkäse pancetta salami drumstick brisket. Spare ribs chuck short loin, ball tip strip steak tri-tip sirloin shankle beef prosciutto drumstick ground round. Brisket short ribs shoulder ham ribeye corned beef, pork chop tri-tip kielbasa tail short loin t-bone.<p>
+                <h1 class = "section-header">See what we're up to!</h1>
+                <div id="images">
+                </div>
+            </section>
+            <aside class="span1 last">
                 <a href="signup.html" alt="sign up for compost pickup">
                     <div class="button cf">
                         <p>Monthly </br> Pickup</p>
@@ -94,7 +99,7 @@ format: "json"
 function(data) {
 $.each(data.items, function(i,item){
 $("<img/>").attr("src", item.media.m).appendTo("#images");
-if ( i == 7 ) return false;
+if ( i == 4 ) return false;
 });
 });</script>
 </body>

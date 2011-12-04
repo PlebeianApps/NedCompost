@@ -43,6 +43,7 @@ header {
 	margin-bottom: 30px;
 }
 
+
 /* nav */
 
 nav {
@@ -69,19 +70,36 @@ nav a.selected {
 /* main */
 
 .main-content p {
-	font-size: 1.5em;
+	font-size: 1.8em;
 	font-family: helvetica;
 	font-weight: 300;
 	color: #666;
 }
 
+.content p {
+	font-size: 2em;
+	margin-bottom: 20px;
+	color: #4d4d4d;
+	font-family: helvetica;
+}
+
+h1.section-header {
+	text-transform: uppercase;
+	font-size: 2em;
+	border-top: 2px solid #e5e5e5;
+	border-bottom: 2px solid #e5e5e5;
+	width: 100%;
+	color: #4d4d4d;
+	padding: 10px 0 5px 0;
+	margin-bottom: 20px;
+}
+
 /* images */
 
 .compost-image {
-	float: left;
-	border-radius: 1em;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	width: 490px;
+	margin-top: -30px;
 }
 
 #images {
@@ -107,7 +125,8 @@ nav a.selected {
 	padding: 20px 0;
 	font-size: 2.4em;
 	color:white;
-	margin-bottom:10px;
+	margin-bottom:15px;
+	margin-right: 11px;
 }
 
 .button:hover {
@@ -120,41 +139,42 @@ nav a.selected {
 
 .button p {
 	float: left;
-	margin-left: 25px;
+	margin-left: 18px;
 	text-transform: lowercase;
 }
 
 .button h2 {
 	font-size: 2.3em;
 	float: right;
-	margin-right: 25px;
+	margin-right: 18px;
 	margin-bottom: -10px;
 }
 
 .volunteer {
-	background: #CCC url(../images/foodstamp.png) no-repeat 160px 15px;
+	background: #666666 url(../images/foodstamp.png) no-repeat 156px 15px;
 	height: 34px;
 	padding-top: 30px;
 }
 
 .volunteer:hover {
 	color:white;
-	background: #CCC url(../images/foodstamp-hover.png) no-repeat 160px 15px;
+	background: #666666 url(../images/foodstamp-hover.png) no-repeat 156px 15px;
 }
 
 .donate {
-	background: #CCC url(../images/donate.png) no-repeat 160px 19px;
+	background: #666666 url(../images/donate.png) no-repeat 156px 19px;
 	height: 34px;
 	padding-top: 30px;
+	margin-bottom: 74px;
 }
 
 .donate:hover {
 	color:white;
-	background: #CCC url(../images/donate-hover.png) no-repeat 160px 19px;
+	background: #666666 url(../images/donate-hover.png) no-repeat 160px 19px;
 }
 
 .twit-link {
-	background: #CCC;
+	background: #999999;
 	font-size: 2.4em;
 	padding: 16px 0 13px 21px;
 	margin-top: 10px;
