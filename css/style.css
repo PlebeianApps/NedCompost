@@ -87,17 +87,19 @@ h1.section-header {
 	text-transform: uppercase;
 	font-size: 2em;
 	border-top: 2px solid #e5e5e5;
-	border-bottom: 2px solid #e5e5e5;
 	width: 100%;
 	color: #4d4d4d;
 	padding: 10px 0 5px 0;
 	margin-bottom: 20px;
 }
 
+h1.section-header-top {
+	padding-top:25px;
+}
+
 /* images */
 
 .compost-image {
-	margin-bottom: 40px;
 	width: 490px;
 	margin-top: -30px;
 }
@@ -117,6 +119,13 @@ h1.section-header {
 
 .main {
 	margin-top: 30px;
+}
+
+aside.buttons {
+	margin-top: -320px;
+	z-index: 105;
+	position: absolute;
+	margin-left: 520px;
 }
 
 .button {
@@ -141,6 +150,10 @@ h1.section-header {
 	float: left;
 	margin-left: 18px;
 	text-transform: lowercase;
+	font-family: josefin slab;
+	color: white;
+	font-size: 1.1em;
+	margin-bottom: 0;
 }
 
 .button h2 {
@@ -165,7 +178,6 @@ h1.section-header {
 	background: #666666 url(../images/donate.png) no-repeat 156px 19px;
 	height: 34px;
 	padding-top: 30px;
-	margin-bottom: 74px;
 }
 
 .donate:hover {
@@ -173,28 +185,10 @@ h1.section-header {
 	background: #666666 url(../images/donate-hover.png) no-repeat 160px 19px;
 }
 
-.twit-link {
-	background: #999999;
-	font-size: 2.4em;
-	padding: 16px 0 13px 21px;
-	margin-top: 10px;
-	margin-bottom: -15px;
-	border-radius: 1em 1em 0 0em;
-	padding: 16px 0 13px 21px;
-	text-transform: lowercase;
-}
-
-.twit-link a {
-	color:white;
-}
-
-.twit-link a:hover {
-	color:#039103;
-}
-
 .twitter {
 	font-size: 1.5em;
 	font-family: helvetica;
+	margin-top: 0;
 }
 
 .twitter li {
@@ -205,16 +199,25 @@ h1.section-header {
 	padding: 15px;
 }
 
-.twitter li:first-child {
-	border-radius:0 0 1em 1em;
-}
 
 ul#twitter_update_list span a {
-	color:#039103;
+	color:#64a773;
+	margin-top: 0;
 }
 
 ul#twitter_update_list span a:hover {
-	color:#64a773;
+	color:#039103;
+}
+
+a.twit-header {
+	color: #64a773;
+	margin-right: 82px;
+	font-size: 0.9em;
+	float: right;
+}
+
+a.twit-header:hover {
+	color: #039103;
 }
 
 /* learn */
