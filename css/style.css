@@ -242,7 +242,11 @@ a.twit-header:hover {
 }
 
 .unwanted-items {
-	background:#CCCCCC;
+	background: #CCCCCC;
+}
+
+img.cycle {
+	margin-bottom: 50px;
 }
 
 /* team */
