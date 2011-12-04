@@ -70,14 +70,14 @@ nav a.selected {
 /* main */
 
 .main-content p {
-	font-size: 1.8em;
+	font-size: 2em;
 	font-family: helvetica;
 	font-weight: 300;
 	color: #666;
 }
 
 .content p {
-	font-size: 2em;
+	font-size: 1.8em;
 	margin-bottom: 20px;
 	color: #4d4d4d;
 	font-family: helvetica;
