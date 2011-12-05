@@ -56,6 +56,7 @@ nav {
 
 nav ul {
 	margin-bottom: 5px;
+	margin-left: 15px;
 }
 
 nav ul li {
@@ -139,9 +140,6 @@ aside.buttons {
 	color:white;
 	margin-bottom:15px;
 	margin-right: 11px;
-}
-
-.button:hover {
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
@@ -200,6 +198,8 @@ aside.buttons {
 	background: #f2f2f2;
 	border-radius: 1em;
 	padding: 15px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.10);
+	border: 1px solid #E5E5E5;
 }
 
 
@@ -234,6 +234,7 @@ a.twit-header:hover {
 	margin-bottom:10px;
 	width:190px;
 	text-transform:uppercase;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 .aside-list li {
@@ -255,14 +256,15 @@ img.cycle {
 /* team */
 
 .team-img {
-	height:380px;
-	border-radius:1em;
-	background:transparent url(../images/team-bg.png) repeat 0 0;
+	height: 380px;
+	border-radius: 1em;
+	background: #64a773;
 	color:white;
 	font-size: 1.8em;
 	padding-top: 20px;
 	text-align: center;
 	margin-bottom:20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 .team-img img {
@@ -276,17 +278,20 @@ img.cycle {
 
 .team-img h2 {
 	margin:0 10px;
+	text-transform: uppercase;
+	font-size: 1.1em;
 }
 
 .team-img a {
-	color: #999;
+	color: #1f481e;
 	font-size: 0.8em;
 	font-family: helvetica;
 	font-weight: 200;
+	font-weight: bold;
 }
 
 .team-img a:hover {
-	color:#039103;
+	color:#1a1a1a;
 }
 
 .team-volunteer-hover {
@@ -296,12 +301,13 @@ img.cycle {
 }
 
 .team-volunteer a {
-	background:#e2e2e2;
+	background: white;
 	text-transform:lowercase;
-	color:#333333;
+	color:#1f481e;
 	padding:10px 20px;
 	border-radius:0.5em;
 	font-weight: bold;
+	box-shadow: 0 3px 0 #4b7a4a;
 }
 
 .team-volunteer a:hover {
