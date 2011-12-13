@@ -100,7 +100,7 @@ format: "json"
 function(data) {
 $.each(data.items, function(i,item){
 $("<img/>").attr("src", item.media.m.replace('_m.jpg', '_b.jpg')).appendTo("#images");
-if ( i == 3 ) return false;
+if ( i == 6 ) return false;
 });
 });</script>
 </body>
