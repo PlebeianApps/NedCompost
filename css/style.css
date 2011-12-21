@@ -72,6 +72,11 @@ nav a.selected {
 	color:#64a773;
 }
 
+nav.bottom-border {
+	height: 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
 /* main */
 
 .main-content p {
@@ -130,7 +135,7 @@ aside.buttons {
 	margin-top: -320px;
 	z-index: 105;
 	position: absolute;
-	margin-left: 520px;
+	margin-left: 509px;
 }
 
 .button {
